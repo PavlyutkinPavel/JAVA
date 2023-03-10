@@ -17,7 +17,7 @@ public class Main {
         convert.displayInfo();*/
 
         //dz
-        //Сделать все поля private!!!!
+        
         PassengerTransport bmwi8 = new PassengerTransport(350, 400, 1000, "BMW i8", 4, 3.5, "LOX", 4);
         bmwi8.displayCharacteristics();
         bmwi8.countTimeCharacteristics(2.5);
