@@ -1,0 +1,2 @@
+sdhfvl234	 no contact/docnum indicator before ur document number
+docnum234	 Incorrect length of document number
