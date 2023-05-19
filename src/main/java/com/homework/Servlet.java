@@ -13,7 +13,6 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-
 //Task 1(url = localhost:8080/minsk/washington/beijing)
 @WebServlet(urlPatterns = { "/minsk", "/washington", "/beijing" })
 public class Servlet extends HttpServlet {
