@@ -1,0 +1,16 @@
+h1 {
+    background-color: aquamarine;
+    font-size: 300%;
+    margin: 5%;
+}
+
+body {
+    background-color: antiquewhite;
+}
+.char {
+    text-decoration: underline;
+    background-color: cornflowerblue;
+    font-size: 100%;
+    text-align: right;
+    margin-top: 10%;
+}

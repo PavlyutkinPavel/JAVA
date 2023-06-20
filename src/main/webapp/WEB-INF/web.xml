@@ -1,0 +1,25 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        version="2.5">
+  <display-name>Archetype Created Web Application</display-name>
+
+
+
+  <filter-mapping>
+    <filter-name>filter2</filter-name>
+    <url-pattern>/c65</url-pattern>
+  </filter-mapping>
+
+  <filter-mapping>
+    <filter-name>filter1</filter-name>
+    <url-pattern>/c65</url-pattern>
+  </filter-mapping>
+  
+  <listener>
+    <listener-class>com.listeners.StartApplicationListener</listener-class>
+  </listener>
+</web-app>
