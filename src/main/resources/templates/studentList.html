@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Students</title>
+</head>
+<body>
+<h1>List of students</h1>
+<ul>
+    <li th:each="student : ${students}">
+        <span th:text="${student.firstName}"></span>
+        <span th:text="${student.lastName}"></span>
+        <span th:text="${student.group}"></span>
+        <a th:href="@{/students/delete/{id}(id=${student.id})}">Delete</a>
+    </li>
+</ul>
+<a href="/students/add">Add student</a>
+</body>
+</html>
