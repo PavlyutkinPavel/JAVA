@@ -5,7 +5,6 @@ import com.tms.hw43_44_rest.domain.FileData;
 import com.tms.hw43_44_rest.domain.PaymentCard;
 import com.tms.hw43_44_rest.repository.FileDataRepository;
 import com.tms.hw43_44_rest.service.BankingService;
-import org.apache.logging.log4j.message.Message;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
