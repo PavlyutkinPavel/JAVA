@@ -65,7 +65,7 @@ public class BankingController {
             return new ResponseEntity<>(bankingService.transferAmount(sourceCardId, targetCardId, amount), HttpStatus.OK);
         }
     }
-//TODO: доделать эту поеботу
+
     @PostMapping("/upload")
     public ResponseEntity<String> uploadFile(@RequestParam("file") MultipartFile file) {
         try {
