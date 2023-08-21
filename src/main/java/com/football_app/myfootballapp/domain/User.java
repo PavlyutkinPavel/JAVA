@@ -10,7 +10,8 @@ import java.util.Date;
 public class User {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @SequenceGenerator(name = "user_seq", sequenceName = "users_id_seq", allocationSize = 1)//для нерандомных id а по sequence
+    @GeneratedValue(generator = "user_seq")
     private Long id;
 
     @Column(name = "username")
