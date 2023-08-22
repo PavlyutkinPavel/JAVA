@@ -1,9 +1,12 @@
 package com.football_app.myfootballapp.domain;
 
 import jakarta.persistence.*;
+import lombok.Data;
+
 import java.util.Date;
 
 @Entity(name = "news")
+@Data
 public class News {
 
     @Id
@@ -17,7 +20,7 @@ public class News {
     @Column(name = "content")
     private String content;
 
-    @Column(name = "time_publishment")
+    @Column(name = "time_publication")
     private Date publicationDate;
 
 }

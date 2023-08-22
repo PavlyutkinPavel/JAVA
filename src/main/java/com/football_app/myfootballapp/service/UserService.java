@@ -1,12 +1,10 @@
 package com.football_app.myfootballapp.service;
 
-import com.football_app.myfootballapp.domain.Player;
 import com.football_app.myfootballapp.domain.User;
-import com.football_app.myfootballapp.repository.PlayerRepository;
+import com.football_app.myfootballapp.repository.NewsRepository;
 import com.football_app.myfootballapp.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Service

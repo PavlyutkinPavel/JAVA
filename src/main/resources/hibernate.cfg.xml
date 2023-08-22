@@ -16,6 +16,7 @@
         <property name="format_sql">true</property>
 
         <mapping class="com.football_app.myfootballapp.domain.User"/>
+        <mapping class="com.football_app.myfootballapp.domain.News"/>
 
     </session-factory>
 </hibernate-configuration>
